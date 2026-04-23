@@ -1,0 +1,7 @@
+numpy
+opencv-python
+PyWavelets
+scipy
+scikit-image
+pytest
+PyYAML

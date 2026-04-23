@@ -1,0 +1,5 @@
+[
+  "tests/test_transform.py::test_pairwise_embed_extract",
+  "tests/test_utils.py::test_fixed_header",
+  "tests/test_utils.py::test_text_bit_roundtrip"
+]

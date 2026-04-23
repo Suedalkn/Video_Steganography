@@ -1,0 +1,62 @@
+[STEP] Project planning completed.
+- Olusturulan dosya/klasor: src, data/input, data/output, logs, tests, docs
+- Yazilan modul: Mimari plan
+- Algoritma karari: Hareket + doku skorlarina gore adaptif blok secimi
+- Gerekce: Insan gozunun daha az duyarlı oldugu dinamik/teksturlu bolgelerde gizleme
+- Yapilan test: Dizin olusumu kontrolu
+- Test sonucu: Basarili
+
+[STEP] Core module implementation completed.
+- Olusturulan dosyalar: config.py, video_loader.py, frame_analyzer.py, motion_detector.py, texture_analyzer.py, block_selector.py, transform_engine.py, embedder.py, extractor.py, evaluator.py, utils.py, logger.py, main.py
+- Yazilan modul: Embedding + extraction + evaluation pipeline
+- Algoritma karari: DWT HH bandi uzerinde DCT katsayi cifti iliski tabanli bit gomume
+- Gerekce: Uzaysal LSB'ye gore daha zor fark edilen ve daha akademik donusum-tabanli yapi
+- Yapilan test: Statik kod akisi denetimi
+- Test sonucu: Basarili
+
+[STEP] Documentation completed.
+- Olusturulan dosyalar: README.md, docs/roadmap.md, requirements.txt, config.yaml
+- Yazilan modul: Proje dokumantasyonu
+- Algoritma karari: Parametreleri config dosyasina tasima
+- Gerekce: Magic number azaltma ve deneysel tekrar edilebilirlik
+- Yapilan test: Dokuman kapsami kontrolu
+- Test sonucu: Basarili
+
+[STEP] Runtime verification attempt.
+- Olusturulan dosya: Yok
+- Yazilan modul: Test ve calistirma dogrulamasi
+- Algoritma karari: `pytest` ile hizli birim test dogrulamasi
+- Gerekce: Pipeline birimlerinin minimum davranis kontrolu
+- Yapilan test: `python -m pytest -q` ve `py -m pytest -q`
+- Test sonucu: Ortamda Python komutu bulunamadigi icin calistirilamadi
+
+[STEP] Environment and dependency completion.
+- Olusturulan dosya: `.venv` sanal ortam
+- Yazilan modul: Calisma ortami kurulum adimi
+- Algoritma karari: Python 3.12 + virtualenv kullanimi
+- Gerekce: Tekrarlanabilir ve izole calisma ortami
+- Yapilan test: `pytest -q`
+- Test sonucu: 3 test gecti
+
+[STEP] Extraction synchronization fix.
+- Olusturulan dosyalar: Yok (guncellenenler: `src/extractor.py`, `src/main.py`, `src/video_loader.py`, `config.yaml`, `requirements.txt`)
+- Yazilan modul: Extraction referans video destegi + codec fallback
+- Algoritma karari: Non-blind extraction ve lossless codec tercih etme
+- Gerekce: Lossy `mp4v` yaziminda bit iliskilerinin bozulmasi
+- Yapilan test: Embed + Extract + Evaluate zinciri (sentetik video)
+- Test sonucu: Cikarma dogrulugu 1.0, SSIM ~0.99997
+TEST: Embed run completed | Result: Stego video generated.
+TEST: Evaluation run completed | Result: Metrics report generated.
+TEST: Embed run completed | Result: Stego video generated.
+TEST: Embed run completed | Result: Stego video generated.
+TEST: Extract run completed | Result: Message extracted and saved.
+TEST: Evaluation run completed | Result: Metrics report generated.
+TEST: Embed run completed | Result: Stego video generated.
+TEST: Extract run completed | Result: Message extracted and saved.
+TEST: Evaluation run completed | Result: Metrics report generated.
+TEST: Embed run completed | Result: Stego video generated.
+TEST: Extract run completed | Result: Message extracted and saved.
+TEST: Embed run completed | Result: Stego video generated.
+TEST: Extract run completed | Result: Message extracted and saved.
+TEST: Embed run completed | Result: Stego video generated.
+TEST: Embed run completed | Result: Lossless stego + preview stego generated.

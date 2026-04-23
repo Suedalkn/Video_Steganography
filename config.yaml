@@ -1,0 +1,39 @@
+project:
+  name: "Adaptive DWT-DCT Video Steganography"
+  log_level: "INFO"
+
+paths:
+  input_video: "data/input/input_video.mp4"
+  stego_video: "data/output/stego_video.avi"
+  stego_preview_video: "data/output/stego_video_preview.mp4"
+  extracted_text: "data/output/extracted_message.txt"
+  report_json: "data/output/evaluation_report.json"
+  process_log: "logs/process.log"
+  development_log: "logs/development_steps.txt"
+
+video:
+  max_frames: null
+  frame_step: 1
+  color_space: "ycrcb"
+  output_codec: "FFV1"
+
+analysis:
+  block_size: 8
+  top_block_ratio: 0.2
+  motion_weight: 0.6
+  texture_weight: 0.4
+  canny_low: 80
+  canny_high: 160
+
+transform:
+  wavelet: "haar"
+  dwt_level: 1
+  dct_pair_indices: [2, 5]
+  coefficient_margin: 35.0
+
+payload:
+  header_bits: 32
+  text_encoding: "utf-8"
+
+evaluation:
+  compute_ssim: true

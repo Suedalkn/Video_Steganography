@@ -1,0 +1,31 @@
+2026-04-21 16:53:12 | INFO | video_steg | Frame 0 processed, embedded bits so far: 240
+2026-04-21 16:53:12 | INFO | video_steg | Frame 1 processed, embedded bits so far: 272
+2026-04-21 16:53:12 | INFO | video_steg | Embedding completed. Total embedded bits: 272
+2026-04-21 16:53:13 | INFO | video_steg | Header decoded. Payload bit length: 536871456
+2026-04-21 16:53:59 | INFO | video_steg | Frame 0 processed, embedded bits so far: 240
+2026-04-21 16:53:59 | INFO | video_steg | Frame 1 processed, embedded bits so far: 272
+2026-04-21 16:53:59 | INFO | video_steg | Embedding completed. Total embedded bits: 272
+2026-04-21 16:54:00 | INFO | video_steg | Header decoded. Payload bit length: 1073742400
+2026-04-21 16:54:03 | INFO | video_steg | Header decoded. Payload bit length: 1073742400
+2026-04-21 16:54:37 | INFO | video_steg | Frame 0 processed, embedded bits so far: 240
+2026-04-21 16:54:37 | INFO | video_steg | Frame 1 processed, embedded bits so far: 272
+2026-04-21 16:54:37 | INFO | video_steg | Embedding completed. Total embedded bits: 272
+2026-04-21 16:54:38 | INFO | video_steg | Header decoded. Payload bit length: 240
+2026-04-21 16:54:38 | INFO | video_steg | Extraction completed at frame 1.
+2026-04-21 17:49:05 | INFO | video_steg | Frame 0 processed, embedded bits so far: 272
+2026-04-21 17:49:05 | INFO | video_steg | Embedding completed. Total embedded bits: 272
+2026-04-21 17:51:24 | INFO | video_steg | Header decoded. Payload bit length: 0
+2026-04-21 17:51:24 | INFO | video_steg | Extraction completed at frame 0.
+2026-04-21 18:01:22 | INFO | video_steg | Frame 0 processed, embedded bits so far: 184
+2026-04-21 18:01:22 | INFO | video_steg | Embedding completed. Total embedded bits: 184
+2026-04-21 18:05:13 | INFO | video_steg | Header decoded. Payload bit length: 0
+2026-04-21 18:05:13 | INFO | video_steg | Extraction completed at frame 0.
+2026-04-21 18:05:52 | INFO | video_steg | Frame 0 processed, embedded bits so far: 184
+2026-04-21 18:05:52 | INFO | video_steg | Embedding completed. Total embedded bits: 184
+2026-04-21 18:08:00 | INFO | video_steg | Header decoded. Payload bit length: 152
+2026-04-21 18:08:00 | INFO | video_steg | Extraction completed at frame 0.
+2026-04-21 18:09:50 | INFO | video_steg | Frame 0 processed, embedded bits so far: 184
+2026-04-21 18:09:50 | INFO | video_steg | Embedding completed. Total embedded bits: 184
+2026-04-21 18:10:31 | INFO | video_steg | Header decoded. Payload bit length: 4294967143
+2026-04-21 18:18:57 | INFO | video_steg | Frame 0 processed, embedded bits so far: 184
+2026-04-21 18:18:57 | INFO | video_steg | Embedding completed. Total embedded bits: 184
