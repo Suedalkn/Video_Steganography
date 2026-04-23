@@ -602,5 +602,4 @@ This file has been prepared to be placed in the root directory of the project fo
 ```txt
 README_EN.md
 ```
-#   V i d e o _ S t e g a n o g r a p h y  
- 
+#
